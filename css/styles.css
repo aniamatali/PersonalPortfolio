@@ -1,0 +1,227 @@
+body{
+  background-image:url("../images/plainbg.jpg");
+  background-attachment:fixed;
+
+}
+
+.container-fluid {
+  background-image:url("../images/backgroundlanding.jpg");
+  background-attachment:fixed;
+  background-size:cover;
+}
+
+.bigname {
+  margin-top:350px;
+  margin-left:0px;
+  background-image:url("../images/pexels.jpeg");
+  background-size:cover;
+  opacity:1;
+  border-top:5px solid white;
+  border-bottom:5px solid white;
+}
+
+.bigname h1 {
+  text-align:left;
+  font-size:8em;
+  padding-left:25px;
+  margin-bottom:-25px;
+  -webkit-transition:1.2s;
+  color:white;
+  -webkit-text-stroke: 2px black;
+  font-family: 'Kanit', sans-serif;
+}
+
+.bigname h1:hover {
+  -webkit-transition:1.2s;
+  margin-left:1em;
+}
+
+.bigname h2 {
+  font-size:3em;
+  padding-left:25px;
+  color:white;
+  -webkit-transition:1.2s;
+    margin-bottom:0px;
+    font-family: 'Kanit', sans-serif;
+    -webkit-text-stroke: 2px black;
+}
+
+.bigname h2:hover {
+  -webkit-transition:1.2s;
+  margin-left:1em;
+
+}
+
+.col-md-12 {
+  padding:0px;
+}
+
+#coloredslash {
+  color:#444d87;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+#enterdiv {
+  margin-bottom:0px;
+  margin-top:0px;
+  position:fixed;
+  bottom:0px;
+  width:100%;
+  text-align:left;
+  background: #2b5876;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#enterdiv h1 {
+  display:inline;
+}
+
+.enterlink h1{
+  padding-left:25px;
+  color:white;
+  font-family: 'Source Code Pro', monospace;
+  margin-bottom:0px;
+}
+
+.enterlink h1:hover {
+  text-shadow: 2px 2px 5px black;
+  -webkit-transition:.5s
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+#github{
+  display:none;
+  padding-left:25px;
+  -webkit-transition:1.2s;
+  font-family: 'Source Code Pro', monospace;
+  margin-bottom:0px;
+}
+
+#github h1:hover {
+text-shadow: 2px 2px 15px black;
+-webkit-transition:.5s
+}
+
+.topresume {
+  margin-top:2em;
+  height: 150px;
+  width:875px;
+  background-color:#212529;
+  border-bottom:2px solid white;
+}
+
+.topresume h1 {
+  padding-top:45px;
+  padding-left:55px;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing:5px;
+  word-spacing:10px;
+}
+
+.topresume h5 {
+  padding-left:55px;
+  color:#fd4345;
+  margin-top:-5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bolder;
+  letter-spacing: 4px;
+  font-size:12px;
+}
+
+.leftresume {
+  background-color:#212529;
+  height:870px;
+  width:250px;
+    position:absolute;
+  margin-right:0px;
+}
+
+.table th {
+  border:0px;
+  color:#fd4345;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:lighter;
+  letter-spacing: 4px;
+  font-size:12px;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 1px solid grey;
+}
+
+.leftresume .reftable td {
+  padding-top:15px;
+  font-size:10px;
+  letter-spacing:2px;
+}
+
+.leftresume td {
+  padding:2px;
+  border:0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:normal;
+  color:white;
+  letter-spacing: 4px;
+  font-size:12px;
+  padding-left:15px;
+}
+
+
+
+.rightresume {
+  background-color:#fdfdfd;
+  height:870px;
+  width:624px;
+  position:absolute;
+  margin-left:251px;
+  margin-bottom:100px;
+}
+
+.contextsection {
+  margin-top:10px;
+  margin-left:30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+  font-size:14px;
+  word-spacing:1px;
+  line-height:1;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing:5px;
+  word-spacing:10px;
+  font-size:15px;
+  font-weight:bolder;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing:5px;
+  word-spacing:5px;
+  font-size:11px;
+  font-weight:bolder;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size:12px;
+    font-weight:normal;
+}
+
+hr {
+    display: block;
+    height: 5px;
+    border: 0;
+    border-top: 5px solid #fd4345;
+    margin: 1em 0;
+    padding: 0;
+}
