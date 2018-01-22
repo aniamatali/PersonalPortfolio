@@ -1,0 +1,126 @@
+body{
+  background-image:url("../images/plainbg.jpg");
+  background-attachment:fixed;
+}
+
+.container {
+  margin-left:1em;
+}
+
+.topresume {
+  margin-top:2em;
+  height: 150px;
+  width:875px;
+  background-color:#212529;
+  border-bottom:2px solid white;
+}
+
+.topresume h1 {
+  padding-top:45px;
+  padding-left:55px;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing:5px;
+  word-spacing:10px;
+}
+
+.topresume h5 {
+  padding-left:55px;
+  color:#fd4345;
+  margin-top:-5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bolder;
+  letter-spacing: 4px;
+  font-size:12px;
+}
+
+.leftresume {
+  background-color:#212529;
+  height:870px;
+  width:250px;
+    position:absolute;
+  margin-right:0px;
+}
+
+.table th {
+  border:0px;
+  color:#fd4345;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:lighter;
+  letter-spacing: 4px;
+  font-size:12px;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 1px solid grey;
+}
+
+.leftresume .reftable td {
+  padding-top:15px;
+  font-size:10px;
+  letter-spacing:2px;
+}
+
+.leftresume td {
+  padding:2px;
+  border:0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:normal;
+  color:white;
+  letter-spacing: 4px;
+  font-size:12px;
+  padding-left:15px;
+}
+
+
+
+.rightresume {
+  background-color:#fdfdfd;
+  height:870px;
+  width:624px;
+  position:absolute;
+  margin-left:251px;
+  margin-bottom:100px;
+}
+
+.contextsection {
+  margin-top:10px;
+  margin-left:30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+  font-size:14px;
+  word-spacing:1px;
+  line-height:1;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing:5px;
+  word-spacing:10px;
+  font-size:15px;
+  font-weight:bolder;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing:5px;
+  word-spacing:5px;
+  font-size:11px;
+  font-weight:bolder;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size:12px;
+    font-weight:normal;
+}
+
+hr {
+    display: block;
+    height: 5px;
+    border: 0;
+    border-top: 5px solid #fd4345;
+    margin: 1em 0;
+    padding: 0;
+}
