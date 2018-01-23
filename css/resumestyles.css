@@ -10,7 +10,7 @@ body{
 .topresume {
   margin-top:2em;
   height: 150px;
-  width:875px;
+  width:1000px;
   background-color:#212529;
   border-bottom:2px solid white;
 }
@@ -36,9 +36,9 @@ body{
 
 .leftresume {
   background-color:#212529;
-  height:1107px;
-  width:250px;
-    position:absolute;
+  height:1017px;
+  width:350px;
+  position:absolute;
   margin-right:0px;
 }
 
@@ -54,6 +54,7 @@ body{
 .table thead th {
     vertical-align: bottom;
     border-bottom: 1px solid grey;
+    text-align:center;
 }
 
 .leftresume .reftable td {
@@ -78,9 +79,9 @@ body{
 .rightresume {
   background-color:#fdfdfd;
   height:auto;
-  width:624px;
+  width:650px;
   position:absolute;
-  margin-left:251px;
+  margin-left:350px;
   margin-bottom:100px;
 }
 
