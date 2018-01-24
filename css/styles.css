@@ -124,6 +124,10 @@ background-color:#718778; /* Old browsers */
   transform: rotate(130deg);
 }
 
+#enterdiv {
+  border-top:5px solid white;
+}
+
 #enterdiv h1 {
   display:inline;
 }
