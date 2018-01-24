@@ -1,5 +1,7 @@
 body{
-  background-image:url("../images/bluebg.jpg");
+  /* background-image:url("../images/bluebg.jpg"); */
+  background-color:#343e47;
+
 }
 
 .container-fluid {

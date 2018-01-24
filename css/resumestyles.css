@@ -1,10 +1,9 @@
 
 body{
-  background-image:url("../images/bluebg.jpg");
-  background-attachment:fixed;
+  background-color:#343e47;
 }
 
-.container-fluid {
+.container {
   margin-left: auto;
   margin-right: auto;
   display: table;
