@@ -1,0 +1,44 @@
+body {
+  background-color:#343e47;
+}
+
+table {
+  margin:auto;
+}
+
+@font-face {
+font-family: 'LemonLight';
+src: url("../fonts/LemonMilklight.otf");
+}
+
+.imagewrap {
+  width:915px;
+  margin:auto;
+}
+
+th {
+  text-align:center;
+  font-family:'LemonLight', sans-serif;
+}
+
+.imagewrap img{
+
+  -webkit-transition:.5s;
+opacity:.75;
+margin-bottom:1.5em;
+
+}
+
+
+h1 {
+  font-family:'LemonLight', sans-serif;
+  text-align:center;
+  font-size:80px;
+  color:white;
+}
+
+.imagewrap img:hover{
+
+  -webkit-transition:0s;
+  opacity:1;
+}
