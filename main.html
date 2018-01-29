@@ -5,73 +5,83 @@
   <title>main</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="css/mainstyles.css" rel="stylesheet" type="text/css">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Kanit:700|Source+Code+Pro:300" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div class="container-fluid">
-    <table class="table table-light">
-      <th colspan ="2">Social Media App</th>
-      <tr>
-        <td>
-          <div class="item">
+
+<div class="container-fluid">
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="item">
             <a href="https://github.com/aniamatali/cyber-book" target=_blank>
-              <img src="images/Chaticodus.png" width="540"></a>
-              <div class="item-overlay top"></div>
-            </div>
-          </td>
-          <td>
+      <img src="images/Chaticodus.png"></a>
+       <div class="item-overlay top"></div>
+     </div>
+    </div>
+    <div class="carousel-item">
+      <div class="item">
             <a href="https://github.com/aniamatali/cyber-book" target=_blank>
-              <div class="item">
-                <img src="images/Chaticodus2.png" width="540"></a>
-                <div class="item-overlay top"></div>
-              </div>
-            </a>
-          </td>
-        </tr>
+      <img src="images/Chaticodus2.png" ></a>
+      <div class="item-overlay top"></div>
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="item">
+            <a href="https://github.com/aniamatali/FriendFiller---Overwatch-Edition" target=_blank>
+      <img src="images/Overwatch.png"></a>
+      <div class="item-overlay top"></div>
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="item">
+            <a href="https://github.com/aniamatali/FriendFiller---Overwatch-Edition" target=_blank>
+      <img src="images/Overwatch2.png"></a>
+      <div class="item-overlay top"></div>
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="item">
+            <a href="https://github.com/aniamatali/gormicproject" target=_blank>
+      <img src="images/gormic.png"></a>
+      <div class="item-overlay top"></div>
+    </div>
+    </div>
+  </div>
 
-        <th colspan ="2">Overwatch Friend Filler</th>
-        <tr>
-          <td>
-            <div class="item">
-              <a href="https://github.com/aniamatali/FriendFiller---Overwatch-Edition" target=_blank>
-                <img src="images/Overwatch.png" width="540"></a>
-                <div class="item-overlay top"></div>
-              </div>
-            </td>
-            <td>
-              <div class="item">
-                <a href="https://github.com/aniamatali/FriendFiller---Overwatch-Edition" target=_blank>
-                  <img src="images/Overwatch2.png" width="540">
-                  <div class="item-overlay top"></div></a>
-                </div>
-              </a>
-            </td>
-          </tr>
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
 
-          <th colspan ="2">Lumber Company</th>
-          <tr>
-            <td colspan ="2" id="centerimage">
-              <div class="item">
-                <a href="https://github.com/aniamatali/gormicproject" target=_blank>
-                  <img src="images/gormic.png" height="374" >
-                  <div class="item-overlay top"></div>
-                </div>
-              </td>
-            </tr>
-          </table>
-        </div>
 
-        <div class="col-md-12">
           <div id="enterdiv">
             <a href="http://www.alvinisaac.com/main.html" class="enterlink"><h1>PROJECTS</h1></a>
             <a href="mailto:aniamatali@gmail.com" class="enterlink"><h1>CONTACT</h1></a>
             <a href="http://alvinisaac.com/resume.html" class="enterlink"><h1>RESUME</h1></a>
             <a href="http://www.github.com/aniamatali" class="enterlink" target=_blank><h1>GITHUB</h1></a>
           </div>
-        </div>
+
 
 
       </body>
