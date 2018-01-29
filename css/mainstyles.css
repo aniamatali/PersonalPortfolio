@@ -1,14 +1,22 @@
+@font-face {
+font-family: "Boom";
+src :url("../fonts/boom.TTF")
+}
+@font-face {
+font-family: "LemonBold";
+src: url("../fonts/LemonMilkbold.otf");
+}
+@font-face {
+font-family: "LemonLight";
+src: url("../fonts/LemonMilklight.otf");
+}
+
 body {
   background-color:#343e47;
 }
 
 table {
   margin:auto;
-}
-
-@font-face {
-font-family: 'LemonLight';
-src: url("../fonts/LemonMilklight.otf");
 }
 
 .container-fluid {
@@ -21,13 +29,6 @@ td {
 
 th {
   text-align:center;
-}
-
-h1 {
-  font-family:'LemonLight', sans-serif;
-  text-align:center;
-  font-size:80px;
-  color:white;
 }
 
 .item {
@@ -55,4 +56,52 @@ table {
 
 #centerimage {
   text-align:center;
+}
+
+#enterdiv {
+  margin-bottom:0px;
+  margin-top:0px;
+  position:fixed;
+  bottom:0px;
+  width:100%;
+  text-align:left;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a53540+0,ff8072+52,ff3019+99 */
+background-color:#718778; /* Old browsers */
+}
+
+#enterdiv {
+  border-top:5px solid white;
+}
+
+#enterdiv h1 {
+  display:inline;
+}
+
+.enterlink h1{
+  padding-left:28px;
+  color:white;
+  font-family: 'Boom', monospace;
+  margin-bottom:0px;
+}
+
+.enterlink h1:hover {
+  text-shadow: 2px 2px 5px black;
+  -webkit-transition:.5s
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+#github{
+  padding-left:25px;
+  -webkit-transition:1.2s;
+  font-family: 'boom', monospace;
+  margin-bottom:0px;
+  color:white;
+}
+
+#github h1:hover {
+text-shadow: 2px 2px 15px black;
+-webkit-transition:.5s
 }

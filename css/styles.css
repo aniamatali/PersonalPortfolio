@@ -76,7 +76,6 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
   text-align:left;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a53540+0,ff8072+52,ff3019+99 */
 background-color:#718778; /* Old browsers */
-
 }
 
 #cellphonepng {
@@ -153,11 +152,11 @@ a:hover {
 }
 
 #github{
-  display:none;
   padding-left:25px;
   -webkit-transition:1.2s;
   font-family: 'Boom', monospace;
   margin-bottom:0px;
+  color:white;
 }
 
 #github h1:hover {
