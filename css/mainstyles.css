@@ -16,24 +16,8 @@ src: url("../fonts/LemonMilklight.otf");
       height: 100%;
   }
 
-.container-fluid {
-  margin-top:4em;
-}
-
 body {
   background-color:#343e47;
-}
-
-table {
-  margin:auto;
-}
-
-td {
-  text-align:center;
-}
-
-th {
-  text-align:center;
 }
 
 .item {
@@ -41,7 +25,7 @@ th {
   margin: 2%;
   overflow: hidden;
 }
-.item img {
+/* .item img {
   max-width: 100%;
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
@@ -53,11 +37,8 @@ th {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 
-}
+} */
 
-table {
-  align-content:center;
-}
 
 #centerimage {
   text-align:center;
@@ -66,12 +47,11 @@ table {
 #enterdiv {
   margin-bottom:0px;
   margin-top:0px;
-  position:fixed;
   bottom:0px;
   width:100%;
   text-align:left;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a53540+0,ff8072+52,ff3019+99 */
-background-color:#718778; /* Old browsers */
+background-color:black; /* Old browsers */
 }
 
 #enterdiv {
@@ -85,7 +65,7 @@ background-color:#718778; /* Old browsers */
 .enterlink h1{
   padding-left:28px;
   color:white;
-  font-family: 'Boom', monospace;
+  font-family: 'LemonLight', monospace;
   margin-bottom:0px;
 }
 
@@ -101,7 +81,7 @@ a:hover {
 #github{
   padding-left:25px;
   -webkit-transition:1.2s;
-  font-family: 'boom', monospace;
+  font-family: 'LemonLight', monospace;
   margin-bottom:0px;
   color:white;
 }

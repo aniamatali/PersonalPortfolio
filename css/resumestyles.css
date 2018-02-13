@@ -12,7 +12,7 @@ src: url("../fonts/LemonMilklight.otf");
 }
 
 body{
-  background-color:#343e47;
+  background-color:black;
 }
 
 .container {
@@ -24,13 +24,12 @@ body{
 .topresume {
   margin-top:2em;
   height: 150px;
-  width:1000px;
+  width:100%;
   background-color:#212529;
-  border-bottom:2px solid white;
 }
 
 .topresume h1 {
-  padding-top:45px;
+  padding-top:15px;
   padding-left:55px;
   color:white;
   font-family: 'Montserrat', sans-serif;
@@ -38,7 +37,7 @@ body{
   word-spacing:10px;
 }
 
-.topresume h5 {
+.topresume h5,h6 {
   padding-left:55px;
   color:#fd4345;
   margin-top:-5px;
@@ -50,15 +49,13 @@ body{
 
 .leftresume {
   background-color:#212529;
-  height:1070px;
-  width:350px;
-  position:absolute;
+  width:100%;
   margin-right:0px;
 }
 
 .table th {
   border:0px;
-  color:#fd4345;
+  color:white;
   font-family: 'Montserrat', sans-serif;
   font-weight:lighter;
   letter-spacing: 4px;
@@ -67,58 +64,42 @@ body{
 
 .table thead th {
     vertical-align: bottom;
-    border-bottom: 1px solid grey;
     text-align:center;
-}
-
-.leftresume .reftable td {
-  padding-top:15px;
-  font-size:12px;
-  letter-spacing:2px;
+    color:black;
+    font-weight:bolder;
 }
 
 .leftresume td {
   padding:2px;
   border:0px;
   font-family: 'Montserrat', sans-serif;
-  font-weight:normal;
-  color:white;
+  font-weight:bold;
   letter-spacing: 4px;
   font-size:13px;
   padding-left:15px;
+  text-align:center;
 }
 
 .leftresume a {
   font-weight:bolder;
 }
 
-.contactrow td {
-  padding-top:15px;
-}
-
-#firstref {
-  padding-top:35px;
-}
-
-
 .rightresume {
   background-color:#fdfdfd;
-  height:1070px;
-  width:650px;
-  position:absolute;
-  margin-left:350px;
-  margin-bottom:100px;
+  width:100%;
+  padding-top:5px;
 }
 
 .contextsection {
-  margin-top:10px;
   margin-left:30px;
-
   font-weight:500;
   font-size:17px;
   word-spacing:1px;
   letter-spacing:-1px;
-  line-height:2;
+}
+
+.contextsection h5 {
+  margin-bottom:0px;
 }
 
 h3 {
@@ -143,6 +124,12 @@ h5 {
     font-weight:500;
 }
 
+h6 {
+      font-family: 'Montserrat', sans-serif;
+      font-size:14px;
+      font-weight:500;
+}
+
 hr {
     display: block;
     height: 5px;
@@ -155,12 +142,11 @@ hr {
 #enterdiv {
   margin-bottom:0px;
   margin-top:0px;
-  position:fixed;
   bottom:0px;
   width:100%;
   text-align:left;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a53540+0,ff8072+52,ff3019+99 */
-background-color:#718778; /* Old browsers */
+  background-color:black; /* Old browsers */
 }
 
 #enterdiv {
@@ -174,7 +160,7 @@ background-color:#718778; /* Old browsers */
 .enterlink h1{
   padding-left:28px;
   color:white;
-  font-family: 'Boom', monospace;
+  font-family: 'LemonLight', monospace;
   margin-bottom:0px;
 }
 
@@ -190,7 +176,7 @@ a:hover {
 #github{
   padding-left:25px;
   -webkit-transition:1.2s;
-  font-family: 'Boom', monospace;
+  font-family: 'LemonLight', monospace;
   margin-bottom:0px;
   color:white;
 }
@@ -198,4 +184,13 @@ a:hover {
 #github h1:hover {
 text-shadow: 2px 2px 15px black;
 -webkit-transition:.5s
+}
+
+.linker {
+    color:#4286f4;
+}
+
+.bgreddish {
+  background-color:#343a40;
+  color:white;
 }

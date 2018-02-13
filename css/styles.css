@@ -75,7 +75,7 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
   width:100%;
   text-align:left;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a53540+0,ff8072+52,ff3019+99 */
-background-color:#718778; /* Old browsers */
+background-color:black; /* Old browsers */
 }
 
 #cellphonepng {
@@ -138,7 +138,7 @@ background-color:#718778; /* Old browsers */
 .enterlink h1{
   padding-left:28px;
   color:white;
-  font-family: 'Boom', monospace;
+  font-family: 'LemonLight', monospace;
   margin-bottom:0px;
 }
 
@@ -154,7 +154,7 @@ a:hover {
 #github{
   padding-left:25px;
   -webkit-transition:1.2s;
-  font-family: 'Boom', monospace;
+  font-family: 'LemonLight', monospace;
   margin-bottom:0px;
   color:white;
 }
