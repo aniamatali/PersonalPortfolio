@@ -142,11 +142,6 @@ background-color:black; /* Old browsers */
   margin-bottom:0px;
 }
 
-.enterlink h1:hover {
-  text-shadow: 2px 2px 5px black;
-  -webkit-transition:.5s
-}
-
 a:hover {
   text-decoration:none;
 }
