@@ -50,6 +50,7 @@ body {
   bottom:0px;
   width:100%;
   text-align:left;
+  position:absolute;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a53540+0,ff8072+52,ff3019+99 */
 background-color:black; /* Old browsers */
 }
