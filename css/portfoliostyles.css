@@ -12,12 +12,39 @@ src: url("../fonts/LemonMilklight.otf");
 }
 
 
+
+.item {
+  position: relative;
+  margin: 2%;
+  overflow: hidden;
+}
+
+.item img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -moz-transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  opacity:.85;
+  height:100%;
+}
+
+.item:hover img {
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity:1;
+}
+
 #enterdiv {
   margin-bottom:0px;
   margin-top:0px;
   bottom:0px;
   width:100%;
   text-align:left;
+  position:fixed;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a53540+0,ff8072+52,ff3019+99 */
 background-color:black; /* Old browsers */
 }
