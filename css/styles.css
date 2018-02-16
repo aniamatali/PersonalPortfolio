@@ -142,19 +142,10 @@ background-color:black; /* Old browsers */
   margin-bottom:0px;
 }
 
-a:hover {
-  text-decoration:none;
-}
-
 #github{
   padding-left:25px;
   -webkit-transition:1.2s;
   font-family: 'LemonLight', monospace;
   margin-bottom:0px;
   color:white;
-}
-
-#github h1:hover {
-text-shadow: 2px 2px 15px black;
--webkit-transition:.5s
 }
