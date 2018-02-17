@@ -28,7 +28,6 @@ src: url("../fonts/LemonMilklight.otf");
   -webkit-transform: scale(1.15);
   transform: scale(1.15);
   opacity:.85;
-  height:100%;
 }
 
 .item:hover img {
