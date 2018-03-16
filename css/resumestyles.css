@@ -12,7 +12,9 @@ src: url("../fonts/LemonMilklight.otf");
 }
 
 body{
-  background-color:black;
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .container {
@@ -26,6 +28,9 @@ body{
   height: 150px;
   width:100%;
   background-color:#212529;
+  border-top:2px solid white;
+  border-left:2px solid white;
+  border-right:2px solid white;
 }
 
 .topresume h1 {
@@ -111,11 +116,11 @@ h3 {
 }
 
 h4 {
-  font-family: 'Montserrat', sans-serif;
   letter-spacing:5px;
   word-spacing:5px;
-  font-size:11px;
+  font-size:15px;
   font-weight:bolder;
+  padding:15px;
 }
 
 h5 {
@@ -188,4 +193,8 @@ text-shadow: 2px 2px 15px black;
 .bgreddish {
   background-color:#343a40;
   color:white;
+}
+
+li {
+  padding:10px;
 }

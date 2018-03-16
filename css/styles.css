@@ -11,12 +11,17 @@ font-family: "LemonLight";
 src: url("../fonts/LemonMilklight.otf");
 }
 body{
-   background: url("../images/concrete.jpg") no-repeat center center fixed;
+   /* background: url("../images/concrete.jpg") no-repeat center center fixed;
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-repeat:repeat-y;
+  background-repeat:repeat-y; */
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
 
 .container-fluid {
@@ -28,8 +33,11 @@ body{
   text-align:center;
   margin-top:350px;
   margin-left:0px;
-  background-color:#a53540;
-  /*background-image:url("../images/pexels.jpeg");*/
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
   background-size:cover;
   opacity:1;
   border-top:5px solid white;
@@ -55,6 +63,8 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
   color:white;
   margin-bottom:0px;
   font-family: 'LemonLight';
+  padding-top:18px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,14);
 }
 
 
@@ -120,12 +130,6 @@ background-color:black; /* Old browsers */
   transform: rotate(50deg);
 }
 
-#coffeepng {
-  position:fixed;
-  margin-top:60px;
-  margin-left:180px;
-  transform: rotate(130deg);
-}
 
 #enterdiv {
   border-top:5px solid white;
