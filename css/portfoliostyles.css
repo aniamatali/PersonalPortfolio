@@ -58,7 +58,6 @@ body {
   width: 236px;
   height: 236px;
   overflow: hidden;
-  border-radius:25%;
   margin-bottom:10px;
   margin-left:2px;
   margin-right:2px;
@@ -67,7 +66,7 @@ body {
 .thumbnaillogo img {
   position:absolute;
   width:236px;
-  height: 236px;
+
 }
 
 h1 {
@@ -79,13 +78,14 @@ h1 {
   margin-bottom:22px;
 }
 
+
 #enterdiv {
   margin-bottom:0px;
   margin-top:0px;
   bottom:0px;
   width:100%;
   text-align:left;
-  position:fixed;
+
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a53540+0,ff8072+52,ff3019+99 */
 background-color:black; /* Old browsers */
 }
