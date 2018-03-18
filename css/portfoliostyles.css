@@ -11,6 +11,10 @@ font-family: "LemonLight";
 src: url("../fonts/LemonMilklight.otf");
 }
 
+body {
+  background-color:white;
+}
+
 .item {
   position: relative;
   margin: 2%;
@@ -19,9 +23,13 @@ src: url("../fonts/LemonMilklight.otf");
 
 .thumbnail {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 236px;
+  height: 236px;
   overflow: hidden;
+  border-radius:25%;
+  margin-bottom:10px;
+  margin-left:2px;
+  margin-right:2px;
 }
 
 .thumbnail img {
